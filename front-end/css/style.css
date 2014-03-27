@@ -1,0 +1,105 @@
+@import url(bootstrap.css);
+
+
+body {
+    background: none repeat scroll 0 0 #FAFAFA;
+}
+
+.header-container
+{
+	max-width: 970px;
+	margin: 0 auto;
+	#background: url("http://teamexcellence.com/img/bg.jpg") repeat scroll 0 0 transparent;
+}
+
+.navbar-default
+{
+  background-color: #ffffff;
+}
+
+.navbar-inner
+{
+  background: none !important;
+}
+
+.title-service
+{
+	margin: 1px 0 15px 35px;
+}
+
+.span-logo
+{
+	float: none !important;
+}
+
+.nav-pills {
+	margin-top: 100px;
+}
+
+.nav-pills > li > a {
+	font-weight: bold;
+	color: #000000;
+	padding: 10px 25px;
+}
+
+.nav > li > a:hover {
+	background: none !important;
+	color: #2B8EB8;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background: none !important;
+	color: #2B8EB8;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+h3 > a:hover {
+	background: none !important;
+	color: #0088CC;
+	text-decoration: none;
+}
+
+h3 > .active > a, h3 > .active > a:hover {
+    background: none !important;
+	color: #0088CC;
+}
+
+.img-logo {
+    width:220px; /* you can use % */
+    height: 150px;
+}
+
+.content-container
+{
+	margin-top: 60px;
+	max-width: 970px;
+	margin: 0 auto;
+}
+
+.container-emp > section
+{
+	padding-bottom: 20px;
+}
+
+.span-serv {
+	width: 220px;
+	line-height: 1.333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.span-serv > p > a {
+	clear: both;
+    display: block;
+    margin-top: 15px;
+}
+
+#imgPC {
+	background-image: url(http://t2.ftcdn.net/jpg/00/31/32/83/400_F_31328320_u1EsvEsyosxbJEb34M2GqOUvnCtE8uJt.jpg);
+	background-position: 50px 60px;
+	width: 40px;
+	height: 30px;
+}
