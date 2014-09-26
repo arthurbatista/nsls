@@ -1,37 +1,54 @@
 
-<script type="text/javascript" src="./js/jcarousel.basic.js"></script>
-
-
-
 <div class="container">
 
-  <div class="row">
+  <div class="row row-carousel">
     <div class="col-md-12">
-        <div class="jcarousel">
-          <ul>
-            <li><img src="./img/diagram.jpg" alt=""></li>
-            <li><img src="./img/energy.jpg" alt=""></li>
-            <li><img src="./img/planning-4.jpg" alt=""></li>
-          </ul>
+        
+      <div id="main-carousel" class="carousel slide" data-ride="carousel">
+  
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#main-carousel" data-slide-to="1"></li>
+          <li data-target="#main-carousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="./img/diagram.jpg" class="img-carousel" alt="">
+            <div class="carousel-caption">
+              <h3>First slide label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./img/energy.jpg" class="img-carousel" alt="">
+            <div class="carousel-caption">
+              <h3>First slide label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./img/planning-4.jpg" class="img-carousel" alt="">
+            <div class="carousel-caption">
+              <h3>First slide label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
         </div>
-
-        <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-        <a href="#" class="jcarousel-control-next">&rsaquo;</a>
-
-        <p class="jcarousel-pagination">
-        </p>
-
+      </div>
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-4">
-      <h2>Heading</h2>
+      <h2>Projetos</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div>
     <div class="col-md-4">
-      <h2>Heading</h2>
+      <h2>Consultoria</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div>

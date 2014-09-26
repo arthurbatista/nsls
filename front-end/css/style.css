@@ -74,18 +74,6 @@ h3 > .active > a, h3 > .active > a:hover {
     height: 150px;
 }
 
-.content-container
-{
-	margin-top: 60px;
-	max-width: 970px;
-	margin: 0 auto;
-}
-
-.container-emp > section
-{
-	padding-bottom: 20px;
-}
-
 .span-serv {
 	width: 220px;
 	line-height: 1.333;
@@ -104,4 +92,10 @@ h3 > .active > a, h3 > .active > a:hover {
 	background-position: 50px 60px;
 	width: 40px;
 	height: 30px;
+}
+
+.img-carousel {
+	 max-height: 500px;
+	 min-height: 500px;
+	 min-width: 100%;
 }
