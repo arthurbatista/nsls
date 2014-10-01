@@ -1,27 +1,49 @@
 <div class="container">
-	<div class="row">
-		<div class="col-md-4">
-			<h3>Telefones</h3>
-			<h3>Localização</h3>
-		</div>
+	<script type="text/javascript">
+ 
+      $(document).ready(function(){
+        
+        var mapCanvas = document.getElementById('map_canvas');
 
-		<div class="col-md-8">
+        var mapOptions = {
+          center: new google.maps.LatLng(-3.0617145,-59.998904,72),
+          zoom: 16,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+      });
+
+	</script>
+	<div class="row">
+		<div class="col-md-6">
 			<form role="form">
-		  		<div class="form-group">
-		    		<label for="exampleInputEmail1">Email</label>
-		    		<input type="email" class="form-control" id="exampleInputEmail1">
+				<div class="form-group">
+		    		<label for="input-name">NOME</label>
+		    		<input class="form-control" id="-input-name"/>
 		  		</div>
 		  		<div class="form-group">
-		    		<label for="exampleInputPassword1">Assunto</label>
-		    		<input class="form-control" id="exampleInputPassword1">
+		    		<label for="input-email">E-MAIL <span class="required">*</span></label>
+		    		<input type="email" class="form-control" id="input-email"/>
 		  		</div>
 		  		<div class="form-group">
-		    		<label for="exampleInputFile">Mensagem</label>
+		    		<label for="exampleInputFile">MENSAGEM<span class="required">*</span></label>
 		    		<textarea class="form-control" id="message" name="message" rows="11"></textarea>
 		  		</div>
 		  		<button type="submit" class="btn btn-default">Enviar</button>
 		  	</form>
-		  	
+		</div>
+		<div class="col-md-6">
+			<h4>Contatos</h4>
+			<ul>
+            	<li><span class="glyphicon glyphicon-user"></span> Nilo Sergio</li>
+                <li><span class="glyphicon glyphicon-phone-alt"></span> Telephone: 41.22.319.36.10 </li>
+                <li><span class="glyphicon glyphicon-envelope"></span> Email: <a href="#">nilo@nsls.com.br</a></li>
+            </ul>
+			<h4>Localização</h4>
+			<div id="map-container"> 
+				<div id="map_canvas"/>
+			<div>
 		</div>
 	</div>
 </div>
