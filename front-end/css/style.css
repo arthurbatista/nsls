@@ -2,9 +2,11 @@
 
 
 body {
-    background: none repeat scroll 0 0 #FFFFFF;
+    background: none repeat scroll 0 0 #FFFFF;
     color: #666;
-	font: 13px/22px "Open Sans",Arial,sans-serif;
+	/*font: 13px/22px "Open Sans",Arial,sans-serif;*/
+	font-family: "Ubuntu",sans-serif;
+	font-size: 13px;
 }
 
 ul, ol {
@@ -27,54 +29,50 @@ h3.title-2 {
     color: #555;
 }
 
-.header-container
-{
-	max-width: 970px;
-	margin: 0 auto;
-	#background: url("http://teamexcellence.com/img/bg.jpg") repeat scroll 0 0 transparent;
-}
-
 /*########## NAVBAR ##########*/
-.navbar-default
-{
-  background-color: #ffffff;
-  margin-bottom: 0px;
-  border-style: none;
+
+header.main {
+	border-top: 10px solid #69D2E7;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
-.navbar-inner
-{
-  background: none !important;
+#main-navbar {
+	margin-top: 50px;
+	padding-left: 0;
+  	list-style: none;
 }
 
-.title-service
-{
-	margin: 1px 0 15px 35px;
+#main-navbar > li {
+	float: left;
+	position: relative;
+  	display: block;
 }
 
-.span-logo
-{
-	float: none !important;
+#main-navbar > li > a {
+	position: relative;
+  	display: block;
+  	padding: 15px 20px 10px;
+	color: #606060;
+	text-transform: uppercase;
+	border-top: 1px solid transparent;
+	font-size: 15px;
 }
 
-.nav-pills {
-	margin-top: 100px;
+#main-navbar > li > a:hover,
+#main-navbar > li > a:focus {
+	text-decoration: none;
+	padding-top: 15px;
+	color: #202020;
 }
 
-.nav-pills > li > a {
-	font-weight: 600;
-	color: #000000;
-	padding: 10px 25px;
-}
-
-.nav > li > a:hover {
-	background: none !important;
-	color: #2B8EB8;
-}
-
-.nav-pills > .active > a, .nav-pills > .active > a:hover {
-    background: none !important;
-	color: #2B8EB8;
+#main-navbar > li.active > a, 
+#main-navbar > li.active > a:hover, 
+#main-navbar > li.active > a:focus {
+	padding-top: 12px;
+	color: #202020;
+	border-top-color: #F90;
+	border-top-width: 4px;
 }
 
 /*########## NAVBAR ##########*/
@@ -95,8 +93,8 @@ h3 > .active > a, h3 > .active > a:hover {
 }
 
 .img-logo {
-    width:220px; /* you can use % */
-    height: 150px;
+    width:120px; /* you can use % */
+    height: 110px;
 }
 
 .span-serv {
@@ -119,15 +117,22 @@ h3 > .active > a, h3 > .active > a:hover {
 	height: 30px;
 }
 
-.img-carousel {
-	 max-height: 500px;
-	 width: 100%;
-}
+
 
 /*########## HOME ##########*/
 
 .service-container {
-	margin-top: 30px;
+	margin-top: 50px;
+}
+
+#main-carousel {
+	border: 1px solid #DDD;
+	border-radius: 10px;
+}
+
+.img-carousel {
+	 max-height: 450px;
+	 width: 100%;
 }
 
 /*########## HOME ##########*/

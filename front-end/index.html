@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="./assets/ico/favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>NSLS Engenharia</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,9 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'/>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'/> -->
+
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300italic,400italic,500,700' rel='stylesheet' type='text/css'>
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -47,49 +49,42 @@
           $("#main_container").load("home.html");
         });
         
-        $("#cotato").click(function() {
+        $("#contato").click(function() {
           $("#main_container").load("contato.html");
         });
       });
      
     </script>
 
-      <div class="navbar navbar-default" role="navigation">
-        <div class="container">
+      <header class="main">
+        <div class="container navbar-container">
 
           <!-- LOGO -->
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <img class="img-logo" src="./img/nsls_logo.jpg">
+            <img class="img-logo" src="./img/nsls_logo_new.png">
           </div>
 
           <!-- NAVBAR -->
-          <div class="collapse navbar-collapse navbar-responsive-collapse">
-                <ul class="nav nav-pills pull-right">
-                    <li><a id="home" href="#" data-toggle="tab">EMPRESA</a></li>
-                    <li><a href="#">CORPO TÉCNICO</a></li>
-                    <li><a href="#">SERVIÇOS</a></li>
-                    <li><a href="#">INFORMAÇÕES ÚTEIS</a></li>
-                    <li><a href="#">LINKS</a></li>
-                    <li><a id="cotato" href="#">FALE CONOSCO</a></li>
-                </ul>
-            </div>
+          <div>
+            <ul id="main-navbar" class="pull-right">
+              <li><a id="home" href="#" data-toggle="tab">Empresa</a></li>
+              <li><a href="#" data-toggle="tab">Corpo Técnico</a></li>
+              <li><a href="#" data-toggle="tab">Serviçoes</a></li>
+              <li><a href="#" data-toggle="tab">Informações Úteis</a></li>
+              <li><a href="#" data-toggle="tab">Links</a></li>
+              <li><a id="contato" href="#" data-toggle="tab">Fale Conosco</a></li>
+            </ul>
+          </div>
 
         </div>
-      </div>
+      </header>
 
-    <div id="main_container">
+    <div id="main_container" class="container">
     </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    
     
   </body>
 </html>
