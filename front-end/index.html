@@ -45,11 +45,19 @@
       $(document).ready(function(){
         $("#main_container").load("home.html");
         
-        $("#home").click(function() {
+        $("#link-home").click(function() {
           $("#main_container").load("home.html");
         });
+
+        $("#link-empresa").click(function() {
+          $("#main_container").load("empresa.html");
+        });
+
+        $("#link-service").click(function() {
+          $("#main_container").load("service.html");
+        });
         
-        $("#contato").click(function() {
+        $("#link-contato").click(function() {
           $("#main_container").load("contato.html");
         });
       });
@@ -67,12 +75,12 @@
           <!-- NAVBAR -->
           <div>
             <ul id="main-navbar" class="pull-right">
-              <li><a id="home" href="#" data-toggle="tab">Empresa</a></li>
-              <li><a href="#" data-toggle="tab">Corpo Técnico</a></li>
-              <li><a href="#" data-toggle="tab">Serviçoes</a></li>
+              <li><a id="link-home" href="#" data-toggle="tab">Home</a></li>
+              <li><a id="link-empresa" href="#" data-toggle="tab">Empresa</a></li>
+              <li><a id="link-service" href="#" data-toggle="tab">Serviços</a></li>
               <li><a href="#" data-toggle="tab">Informações Úteis</a></li>
               <li><a href="#" data-toggle="tab">Links</a></li>
-              <li><a id="contato" href="#" data-toggle="tab">Fale Conosco</a></li>
+              <li><a id="link-contato" href="#" data-toggle="tab">Fale Conosco</a></li>
             </ul>
           </div>
 

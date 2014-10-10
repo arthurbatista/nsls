@@ -32,7 +32,7 @@ h3.title-2 {
 /*########## NAVBAR ##########*/
 
 header.main {
-	border-top: 10px solid #69D2E7;
+	/*border-top: 10px solid #69D2E7;*/
 	padding-top: 20px;
 	padding-bottom: 40px;
 }
@@ -117,8 +117,6 @@ h3 > .active > a, h3 > .active > a:hover {
 	height: 30px;
 }
 
-
-
 /*########## HOME ##########*/
 
 .service-container {
@@ -135,7 +133,23 @@ h3 > .active > a, h3 > .active > a:hover {
 	 width: 100%;
 }
 
-/*########## HOME ##########*/
+/*########## COMPANY ##########*/
+
+.block-description {
+	margin-bottom: 20px;
+}
+
+/*########## SERVICE ##########*/
+
+.services-container {
+	text-align: center;
+}
+
+
+.title-service {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
 
 /*########## CONTACT PAGE ##########*/
 
